@@ -11,6 +11,7 @@ const ConfirmarCuenta = () => {
 
   const params = useParams();
   const { id } = params;
+  console.log("id",id)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const confirmacion = async () => {
